@@ -19,7 +19,7 @@ function App(): React.JSX.Element {
         <Video
           ref={videoRef}
           source={{
-            uri: 'https://brenopolanski.github.io/html5-video-webvtt-example/MIB2.mp4',
+            uri: 'https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
           }}
           onError={onError}
           style={styles.backgroundVideo}
