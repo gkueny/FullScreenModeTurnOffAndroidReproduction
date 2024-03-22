@@ -25,6 +25,7 @@ function App(): React.JSX.Element {
           style={styles.backgroundVideo}
           resizeMode={ResizeMode.CONTAIN}
           controls
+          preventsDisplaySleepDuringVideoPlayback={true}
         />
       </View>
     </View>
